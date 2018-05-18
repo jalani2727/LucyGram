@@ -1,4 +1,5 @@
 /* V2 attempts to incorporate an image slideshow */
+/* Do this after v1 is perfected */
 /* Global styles  */
 
 @font-face {
@@ -142,7 +143,7 @@ button:hover {
 /* remember to call one or multiple of these classes in you javascript */
 
 /* !copy-pasted from w3 schools! */
-{box-sizing:border-box}
+* {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {

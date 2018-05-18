@@ -40,6 +40,7 @@ button:hover {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 0px 0px 5px rgb(113, 111, 111);
 }
 .titleBox{
     display: flex;
@@ -153,4 +154,31 @@ button:hover {
 
     z-index: 2;
 
+}
+
+/* Footer Content */
+
+.footer-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+    background-color: rgb(252, 235, 216);
+    box-shadow: 0px 0px 5px rgb(113, 111, 111);
+    border-radius: 6px;
+}
+
+.left-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.spanSpace {
+    margin: 11px;
 }
