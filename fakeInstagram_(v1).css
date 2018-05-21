@@ -178,7 +178,12 @@ button:hover {
     border-radius: 20%;
     object-fit:cover;
 }
-
+.main-image .fa-times {
+    top: 20;
+    right: 70;
+    color: antiquewhite;
+    font-size: 40px;
+}
 
 /* Footer Content */
 
