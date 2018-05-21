@@ -158,23 +158,23 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80%;
 }
 
 .content {
-    position: absolute;
-    top:0;
-    left:0;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top:0;
+    left:0;
     height: 100%;
     width:100%;
     z-index: -4;
   }
-
+/* dims the background behind the picture and moves it to the front */
 .moveToFront{
     z-index: 4;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.7));
 }
 
 .hidden {
@@ -190,6 +190,7 @@ button:hover {
 .main-image img{
     height: 100%;
     width: 100%;
+    object-fit:cover;
 }
 
 
