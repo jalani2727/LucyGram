@@ -112,9 +112,11 @@ button:hover {
     display: flex;
     background-color: rgb(252, 235, 216);
 
-    width:70%;
+    width: 550px;
+    height: 420px;
+    
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 
@@ -135,24 +137,6 @@ button:hover {
     box-shadow: 0px 0px 5px rgb(113, 111, 111);
 }
 
-/* First attempt at imcorporating a slideshow after clicking an image on LucyGram */
-/* .imageZoom{
-    background-color: rgba(0,0,0,0.8);
-
-    position: absolute;
-    top: 20%;
-    left: 39%;
-
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-
-    width: 300px;
-    height: 400px;
-
-    z-index: 2;
-
-} */
 
 .bigContent{
     display: flex;
@@ -190,6 +174,8 @@ button:hover {
 .main-image img{
     height: 100%;
     width: 100%;
+
+    border-radius: 20%;
     object-fit:cover;
 }
 
