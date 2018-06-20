@@ -37,14 +37,14 @@
         <br>
 
 <!--  This is where the real content of the page begins -->
-
+<!-- These can't all have the same ID. Make them Data targets. That's why the first image is the only one that does stuff -->
         <section class= "pictureBox">
-            <a href = "#"><img data-pictureBox alt = "Lucy!" src = "pictures/IMG_1344.jpg" width = '150px' height = '200px'></a>
-            <a href = "#"><img data-pictureBox alt = "Lucy!" src = "pictures/IMG_1373.jpg" width = '150px' height = '200px'></a>
-            <a href = "#"><img data-pictureBox alt = "Lucy!" src = "pictures/IMG_1410.jpg" width = '150px' height = '200px'></a>
-            <a href = "#"><img data-pictureBox alt = "Lucy!" src = "pictures/IMG_1428.jpg" width = '150px' height = '200px'></a>
-            <a href = "#"><img data-pictureBox alt = "Lucy!" src = "pictures/IMG_1355.jpg" width = '150px' height = '200px'></a>
-            <a href = "#"><img data-pictureBox alt = "Lucy!" src = "pictures/IMG_1225.jpg" width = '150px' height = '200px'></a>
+            <a href = "#"><img data-pictureBox id = 'smallPics' alt = "Lucy!" src = "pictures/IMG_1344.jpg" width = '150px' height = '200px'></a>
+            <a href = "#"><img data-pictureBox id = 'smallPics' alt = "Lucy!" src = "pictures/IMG_1373.jpg" width = '150px' height = '200px'></a>
+            <a href = "#"><img data-pictureBox id = 'smallPics' alt = "Lucy!" src = "pictures/IMG_1410.jpg" width = '150px' height = '200px'></a>
+            <a href = "#"><img data-pictureBox id = 'smallPics' alt = "Lucy!" src = "pictures/IMG_1428.jpg" width = '150px' height = '200px'></a>
+            <a href = "#"><img data-pictureBox id = 'smallPics' alt = "Lucy!" src = "pictures/IMG_1355.jpg" width = '150px' height = '200px'></a>
+            <a href = "#"><img data-pictureBox id = 'smallPics' alt = "Lucy!" src = "pictures/IMG_1225.jpg" width = '150px' height = '200px'></a>
         </section> 
 
         <div data-front class="content">
@@ -72,7 +72,9 @@
                 </div>
             </footer>    
         </Section>  
-        <script src= "fakeInstagram.js"></script>
+        <!-- google cdn script tag for jQuery -->
+        <script src="../scripts/jquery-3.3.1.js"></script>
+        <script src = "fakeInstagram.js"></script>
     </body>
 </center>
     </html>
